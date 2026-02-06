@@ -23,7 +23,7 @@ This project is built with **React.js (Frontend)** and **Node.js + Express.js + 
 ## 🎥 Demo Video (Working)
 
 📽️ Google Drive Link: [https://youtu.be/XaTk3NAi2P0?si=QvHerPDxau3hB4Ud](https://youtu.be/XaTk3NAi2P0?si=QvHerPDxau3hB4Ud)
-**ADD YOUR DEMO VIDEO LINK HERE**
+
 
 ---
 
@@ -172,10 +172,10 @@ VITE_API_URL=https://money-manager-backend-dmuj.onrender.com
 
  -- ** Github repo Link -[https://github.com/Shekharpawar72/money-manager](https://github.com/Shekharpawar72/money-manager)
 - **Backend Repository:** [https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend](https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend)
-- **Frontend Repository:** 
+- **Frontend Repository:** [https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-frontend](https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-frontend)
 - **Last Commit Hash:**
-	- Frontend: ADD_LATEST_COMMIT_HASH
-	- Backend:  ADD_LATEST_COMMIT_HASH
+	- Frontend: beb98f1edbdb484dc15d8561c23e48a1481ff298
+	- Backend:  40ce3a2e7c0cdb0ddeff22ee6fce226a6cb07dc8
 
 ---
 
