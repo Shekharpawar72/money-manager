@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://money-manager-backend-dmuj.onrender.com';
 const API = axios.create({ baseURL: API_BASE_URL });
 
 // Add Token to requests
