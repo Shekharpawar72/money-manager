@@ -7,17 +7,35 @@ const Signup = () => {
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
   const navigate = useNavigate();
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await signup(formData);
-      toast.success("Account created! Please login.");
-      navigate('/login');
-    } catch (err) {
-      toast.error(err.response?.data?.message || "Signup failed");
-    }
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     await signup(formData);
+  //     toast.success("Account created! Please login.");
+  //     navigate('/login');
+  //   } catch (err) {
+  //     toast.error(err.response?.data?.message || "Signup failed");
+  //   }
+  // };
 
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  console.log("FORM DATA:", formData); // 👈 ADD THIS
+
+  try {
+    const res = await signup(formData);
+    console.log("SIGNUP RESPONSE:", res); // 👈 ADD THIS
+
+    toast.success("Account created! Please login.");
+    navigate('/login');
+  } catch (err) {
+    console.log("SIGNUP ERROR:", err); // 👈 ADD THIS
+    toast.error(err.response?.data?.message || "Signup failed");
+  }
+};
+
+
+  
   return (
     <div className="flex min-h-screen items-center justify-center bg-app px-4">
       <div className="w-full max-w-md rounded-3xl border border-white/60 bg-white/90 p-8 shadow-xl shadow-emerald-200/50">
