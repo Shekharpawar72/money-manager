@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
         <Link to="/" className="flex items-center gap-2 text-xl font-semibold text-slate-900">
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-amber-400 text-slate-900">
-            <Wallet size={18} />
+            <Wallet size={10} />
           </span>
           <span className="tracking-tight">MM</span>
         </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="rounded-full bg-rose-100 p-2 text-rose-600 transition hover:bg-rose-200"
                 aria-label="Log out"
               >
-                <LogOut size={10} />
+                <LogOut size={6} />
               </button>
             </div>
           </div>
