@@ -52,7 +52,7 @@ const Navbar = () => {
                 className="rounded-full bg-rose-100 p-2 text-rose-600 transition hover:bg-rose-200"
                 aria-label="Log out"
               >
-                <LogOut size={16} />
+                <LogOut size={10} />
               </button>
             </div>
           </div>
