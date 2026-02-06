@@ -13,7 +13,7 @@ const Navbar = () => {
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-amber-400 text-slate-900">
             <Wallet size={18} />
           </span>
-          <span className="tracking-tight">Money Manager</span>
+          <span className="tracking-tight">MM</span>
         </Link>
 
         {user ? (
