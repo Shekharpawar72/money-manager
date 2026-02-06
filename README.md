@@ -1,75 +1,197 @@
-# Expense Tracker Application
+# 💰 Money Manager – Expense Tracker Application
 
-Welcome to the Expense Tracker! This application helps you manage your finances by tracking your income, expenses, and generating insightful reports. Below is a comprehensive overview of all the features available in this project.
+Money Manager is a **full-stack Expense Tracker web application** that helps users track income, manage expenses, handle multiple accounts, and analyze financial data using interactive dashboards and reports.
 
-## Features
+This project is built with **React.js (Frontend)** and **Node.js + Express.js + MongoDB (Backend)** and follows real-world industry practices such as JWT authentication, REST APIs, and cloud deployment.
 
-### User Authentication
-- **Sign Up & Login:** Secure registration and login for users.
-- **Protected Routes:** Only authenticated users can access certain pages.
+---
 
-### Account Management
-- **Add Accounts:** Create multiple accounts (e.g., bank, cash, wallet).
-- **Edit/Delete Accounts:** Update or remove accounts as needed.
+## 🚀 Live Deployment Links
 
-### Transaction Management
-- **Add Transactions:** Record income and expenses with details like amount, category, and date.
-- **Edit/Delete Transactions:** Modify or remove transactions.
-- **Category Management:** Organize transactions by categories (e.g., Food, Travel, Bills).
+- **Frontend (Live):** [https://money-manager-frontend-muzv.onrender.com](https://money-manager-frontend-muzv.onrender.com)
+- **Backend (Live API):** [https://money-manager-backend-dmuj.onrender.com](https://money-manager-backend-dmuj.onrender.com)
 
-### Reports & Dashboard
-- **Dashboard Chart:** Visualize your spending and income trends with interactive charts.
-- **Summary Reports:** Get monthly and yearly summaries of your finances.
+---
 
-### User Interface
-- **Modern UI:** Clean and responsive design for a seamless experience.
-- **Navigation Bar:** Easy navigation between different sections.
-- **Footer:** Quick links and contact information.
+## 📂 GitHub Repositories
+ -- ** Github repo Link -[https://github.com/Shekharpawar72/money-manager](https://github.com/Shekharpawar72/money-manager)
+- **Backend Repository:** [https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend](https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend)
+- **Frontend Repository:** [https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-frontend](https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-frontend)
+  
+---
 
-### Additional Pages
-- **Home:** Overview of the app and its benefits.
-- **Features:** Detailed list of what the app offers.
-- **FAQ:** Frequently asked questions for user support.
-- **Contact Us:** Get in touch with the development team.
+## 🎥 Demo Video (Working)
 
-### Security
-- **JWT Authentication:** Secure API endpoints using JSON Web Tokens.
-- **Password Hashing:** User passwords are securely hashed.
+📽️ Google Drive Link: [https://youtu.be/XaTk3NAi2P0?si=QvHerPDxau3hB4Ud](https://youtu.be/XaTk3NAi2P0?si=QvHerPDxau3hB4Ud)
+**ADD YOUR DEMO VIDEO LINK HERE**
 
-### Backend
-- **RESTful API:** Node.js and Express.js backend for handling all operations.
-- **MongoDB Database:** Stores user data, accounts, and transactions.
-- **Middleware:** Handles authentication and error management.
+---
+
+## 🖼️ Website Screenshots
+
+> Add all screenshots inside a `/screenshots` folder in the repository
+
+### 1️⃣ Signup Page
+![Signup](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/Signup%20(2).png)
+### 2️⃣ Home Page
+![Home](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/Home.png)
+
+### 4️⃣ Dashboard
+![Dashboard](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/Dashboard.png)
+### 5️⃣ Transaction History
+![Transactions](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/tranaction%20history.png)
+### 6️⃣ Accounts Page
+![Accounts](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/Account.png)
+### 7️⃣ Add Transaction Modal
+![Add Transaction](https://github.com/Shekharpawar72/money-manager/blob/c55004cf201602f1ca442d6e1bcf64963c0b47af/Add%20Transcation.png)
+
+---
+
+## 📝 Project Summary
+
+Money Manager provides users with a simple, secure, and intuitive way to manage personal finances. Users can create multiple accounts, record income and expenses, transfer funds, and visualize financial data through charts and reports.
+
+The application ensures secure access using JWT authentication, protected routes, and hashed passwords. The frontend is fully responsive and optimized for both desktop and mobile devices.
+
+---
+
+## ✨ Key Features
+
+### 🔐 User Authentication
+- Secure Sign Up & Login
+- JWT-based authentication
+- Protected routes
+
+### 💼 Account Management
+- Create multiple accounts (Bank, Wallet, Cash)
+- View account balances
+- Transfer money between accounts
+
+### 💸 Transaction Management
+- Add income & expense transactions
+- Edit transaction details
+- Categorized transactions (Food, Salary, Travel, Rent, etc.)
+
+### 📊 Dashboard & Reports
+- Monthly income vs expense charts
+- Category-wise expense summary
+- Account count & net balance overview
+
+### 🧭 User Interface
+- Clean & modern UI
+- Fully responsive layout
+- Mobile-friendly navigation
+- Modal-based transaction form
+
+### 🛡️ Security
+- JWT Authentication
+- Password hashing using bcrypt
+- Secure API endpoints
+- Environment-based configuration
+
+---
+
+## 🧑‍💻 Tech Stack
 
 ### Frontend
-- **React.js:** Modern frontend framework for building user interfaces.
-- **Vite:** Fast development and build tool.
-- **Context API:** Manages authentication state across the app.
+- React.js
+- Vite
+- Tailwind CSS
+- Context API
+- Axios
 
-## Getting Started
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcrypt
+- CORS
+
+---
+
+## ⚙️ Installation & Setup
 
 ### Prerequisites
 - Node.js
-- npm or yarn
+- npm / yarn
 - MongoDB
 
-### Installation
-1. Clone the repository.
-2. Install dependencies for both Backend and Frontend:
-   - `cd Backend && npm install`
-   - `cd ../Frontend && npm install`
-3. Set up environment variables as needed (see sample `.env` files).
-4. Start the backend server:
-   - `cd Backend && npm start`
-5. Start the frontend app:
-   - `cd ../Frontend && npm run dev`
+### Backend Setup
+```bash
+git clone https://github.com/Shekharpawar72/money-manager-backend
+cd money-manager-backend
+npm install
+npm start
+```
 
-## Contributing
-Feel free to open issues or submit pull requests for improvements and bug fixes.
+### Frontend Setup
+```bash
+git clone https://github.com/Shekharpawar72/money-manager-frontend
+cd money-manager-frontend
+npm install
+npm run dev
+```
 
-## License
+---
+
+## 🔑 Environment Variables
+
+### Backend `.env`
+```
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+```
+
+### Frontend `.env`
+```
+VITE_API_URL=https://money-manager-backend-dmuj.onrender.com
+```
+
+---
+
+## ☁️ Deployment Details
+
+### ✔ Backend Deployment
+- Platform: Render
+- Node.js Web Service
+- MongoDB Atlas
+
+### ✔ Frontend Deployment
+- Platform: Render
+- Static React Build
+
+---
+
+## 📄 Submission Information
+
+- **Frontend (Live):** [https://money-manager-frontend-muzv.onrender.com](https://money-manager-frontend-muzv.onrender.com)
+- **Backend (Live API):** [https://money-manager-backend-dmuj.onrender.com](https://money-manager-backend-dmuj.onrender.com)
+
+ -- ** Github repo Link -[https://github.com/Shekharpawar72/money-manager](https://github.com/Shekharpawar72/money-manager)
+- **Backend Repository:** [https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend](https://github.com/Shekharpawar72/money-manager/tree/main/money-manager-backend)
+- **Frontend Repository:** 
+- **Last Commit Hash:**
+	- Frontend: ADD_LATEST_COMMIT_HASH
+	- Backend:  ADD_LATEST_COMMIT_HASH
+
+---
+
+## 🤝 Contribution
+
+Contributions, issues, and feature requests are welcome.
+
+---
+
+## 📜 License
+
 This project is licensed under the MIT License.
 
 ---
 
-**Enjoy tracking your expenses and taking control of your finances!**
+## ⭐ Final Note
+
+This project demonstrates real-world full-stack development skills, including authentication, REST APIs, deployment, and responsive UI design.
+
